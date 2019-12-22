@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		C82BCBA123AF7DFC00A0BE9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82BCBA023AF7DFC00A0BE9E /* AppDelegate.swift */; };
 		C82BCBA323AF7DFC00A0BE9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82BCBA223AF7DFC00A0BE9E /* SceneDelegate.swift */; };
-		C82BCBA523AF7DFC00A0BE9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82BCBA423AF7DFC00A0BE9E /* ContentView.swift */; };
+		C82BCBA523AF7DFC00A0BE9E /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82BCBA423AF7DFC00A0BE9E /* LocationView.swift */; };
 		C82BCBA723AF7DFF00A0BE9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C82BCBA623AF7DFF00A0BE9E /* Assets.xcassets */; };
 		C82BCBAA23AF7DFF00A0BE9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C82BCBA923AF7DFF00A0BE9E /* Preview Assets.xcassets */; };
 		C82BCBAD23AF7DFF00A0BE9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82BCBAB23AF7DFF00A0BE9E /* LaunchScreen.storyboard */; };
+		C82BCBB523AF7FD700A0BE9E /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82BCBB423AF7FD700A0BE9E /* LocationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C82BCB9D23AF7DFC00A0BE9E /* CoreLocationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreLocationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C82BCBA023AF7DFC00A0BE9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C82BCBA223AF7DFC00A0BE9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C82BCBA423AF7DFC00A0BE9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C82BCBA423AF7DFC00A0BE9E /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		C82BCBA623AF7DFF00A0BE9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C82BCBA923AF7DFF00A0BE9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C82BCBAC23AF7DFF00A0BE9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C82BCBAE23AF7DFF00A0BE9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82BCBB423AF7FD700A0BE9E /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				C82BCBA023AF7DFC00A0BE9E /* AppDelegate.swift */,
 				C82BCBA223AF7DFC00A0BE9E /* SceneDelegate.swift */,
-				C82BCBA423AF7DFC00A0BE9E /* ContentView.swift */,
+				C82BCBA423AF7DFC00A0BE9E /* LocationView.swift */,
+				C82BCBB423AF7FD700A0BE9E /* LocationViewModel.swift */,
 				C82BCBA623AF7DFF00A0BE9E /* Assets.xcassets */,
 				C82BCBAB23AF7DFF00A0BE9E /* LaunchScreen.storyboard */,
 				C82BCBAE23AF7DFF00A0BE9E /* Info.plist */,
@@ -148,7 +151,8 @@
 			files = (
 				C82BCBA123AF7DFC00A0BE9E /* AppDelegate.swift in Sources */,
 				C82BCBA323AF7DFC00A0BE9E /* SceneDelegate.swift in Sources */,
-				C82BCBA523AF7DFC00A0BE9E /* ContentView.swift in Sources */,
+				C82BCBA523AF7DFC00A0BE9E /* LocationView.swift in Sources */,
+				C82BCBB523AF7FD700A0BE9E /* LocationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
