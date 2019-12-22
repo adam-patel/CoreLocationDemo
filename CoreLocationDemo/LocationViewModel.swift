@@ -34,5 +34,4 @@ extension LocationViewModel: CLLocationManagerDelegate {
     userLongitude = location.coordinate.longitude
     print(location)
   }
-  
 }
